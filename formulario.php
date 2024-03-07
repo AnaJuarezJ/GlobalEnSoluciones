@@ -21,7 +21,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $telefono = limpiarDatos($_POST['introducir_telefono']);
     $asunto = limpiarDatos($_POST['introducir_asunto']);
     $mensaje = limpiarDatos($_POST['introducir_mensaje']);
-    $destinatario = 'anajuarez7@outlook.com';
+    $destinatario = 'pruebas210797@gmail.com';
+
 
     if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
         header("Location: error.php?msg=Correo electrónico no válido");
