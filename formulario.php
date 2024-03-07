@@ -55,7 +55,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $mail->Body = $mensajeCompleto;
     
         if ($mail->send()) {
-            header("Location: ruesga.php?msg=Correo enviado con éxito");
+            header("Location: index.html?msg=Correo enviado con éxito");
             exit();
         } else {
             header("Location: error.php?msg=Error al enviar el mensaje: " . $mail->ErrorInfo);
