@@ -65,5 +65,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         header("Location: error.php?msg=Error inesperado: " . $e->getMessage());
         exit();
     }
+    header("Location: index.html?msg=No entro");
+            exit();
+    
 }
 ?>
