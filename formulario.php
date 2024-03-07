@@ -45,7 +45,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $mail->Username   = 'prueba210797@gmail.com';
         $mail->Password   = 'holamundo1234';
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
-        $mail->Port       = 465;
+        $mail->Port       = 587;
     
         $mail->setFrom($email, $nombre);
         $mail->addAddress($destinatario);
@@ -65,8 +65,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         header("Location: error.php?msg=Error inesperado: " . $e->getMessage());
         exit();
     }
-    header("Location: index.html?msg=No entro");
-            exit();
     
 }
 ?>
