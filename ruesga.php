@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -16,7 +16,7 @@
 
   <!-- HEADER -->
 <header tabindex="0">
-  <a href="./index.html"><img src="./assets/logo.png" alt="Logo" class="logo"></a>
+  <a href="./ruesga.php"><img src="./assets/logo.png" alt="Logo" class="logo"></a>
     GLOBAL  EN  SOLUCIONES  RUESGA
 </header>
 
@@ -30,10 +30,10 @@
     </div>
     <div id="nav-content" tabindex="0">
       <ul>
-        <li><a href="./index.html">Inicio</a></li>
-        <li><a href="./index.html#about">Acerca de nosotros</a></li>
-        <li><a href="./index.html#services">Servicios</a></li>
-        <li><a href="./index.html#contact_form">Contáctanos</a></li>
+        <li><a href="./ruesga.php">Inicio</a></li>
+        <li><a href="./ruesga.php#about">Acerca de nosotros</a></li>
+        <li><a href="./ruesga.php#services">Servicios</a></li>
+        <li><a href="./ruesga.php#contact_form">Contáctanos</a></li>
         <li class="small"><a href="mailto:globalensolucionesruesga@gmail.com"><i class="fas fa-envelope"></i> globalensolucionesruesga@gmail.com</a></li>
         <li class="small"><a href="tel:+524444866357"><i class="fas fa-phone"></i> +52 444 486 6357</a></li>
   
@@ -44,11 +44,11 @@
 <!-- SLIDER -->
 <div class="slider-container">
     <div class="slider-wrapper">
-        <div class="slide"><img src="./assets/compraVenta.jpeg" alt="Slide 1"><div class="caption"><a href="./index.html#seguridadIntegral">Seguridad Integral</a></div></div>
-        <div class="slide"><img src="./assets/comparaVentaProductos.jpg" alt="Slide 2"><div class="caption"><a href="./index.html#indumentaria">Indumentaria y Protección Personal</a></div></div>
-        <div class="slide"><img src="./assets/arrendamiento.jpg" alt="Slide 3"><div class="caption"><a href="./index.html#productosDiversos">Productos Diversos y Servicios Comerciales</a></div></div>
-        <div class="slide"><img src="./assets/ServiciosPublicitario.jpg" alt="Slide 4"><div class="caption"><a href="./index.html#asesoria">Asesoría Integral y Capacitación</a></div></div>
-        <div class="slide"><img src="./assets/Serviciostecnicos.jpg" alt="Slide 5"><div class="caption"><a href="./index.html#publicidad">Publicidad y Promoción</a></div></div>
+        <div class="slide"><img src="./assets/compraVenta.jpeg" alt="Slide 1"><div class="caption"><a href="./ruesga.php#seguridadIntegral">Seguridad Integral</a></div></div>
+        <div class="slide"><img src="./assets/comparaVentaProductos.jpg" alt="Slide 2"><div class="caption"><a href="./ruesga.php#indumentaria">Indumentaria y Protección Personal</a></div></div>
+        <div class="slide"><img src="./assets/arrendamiento.jpg" alt="Slide 3"><div class="caption"><a href="./ruesga.php#productosDiversos">Productos Diversos y Servicios Comerciales</a></div></div>
+        <div class="slide"><img src="./assets/ServiciosPublicitario.jpg" alt="Slide 4"><div class="caption"><a href="./ruesga.php#asesoria">Asesoría Integral y Capacitación</a></div></div>
+        <div class="slide"><img src="./assets/Serviciostecnicos.jpg" alt="Slide 5"><div class="caption"><a href="./ruesga.php#publicidad">Publicidad y Promoción</a></div></div>
         <!-- Agrega más slides según sea necesario -->
     </div>
     <div class="arrow arrow-left" onclick="prevSlide()">&#10094;</div>
@@ -173,14 +173,14 @@
 </section>
 
 <!-- CONTACTANOS -->
-<a href="./index.html#contact_form" class="btn-flotante"><i class="fas fa-envelope"></i> CONTÁCTANOS</a>
+<a href="./ruesga.php#contact_form" class="btn-flotante"><i class="fas fa-envelope"></i> CONTÁCTANOS</a>
 
 <div id="contact_form" class="contact_form">
   <div class="formulario">      
     <h1>Contáctanos</h1>
     <small>Escríbenos y en breve nos pondremos en contacto contigo</small>
     
-    <form action="./formulario.php" method="post" accept-charset="UTF-8">
+    <form action="submeter-formulario.php" method="post" accept-charset="UTF-8">
       <div class="input_container">
         <label for="nombre" class="colocar_nombre">Nombre <span class="obligatorio">*</span></label>
         <input type="text" name="introducir_nombre" id="nombre" required placeholder="Escribe tu nombre">
@@ -219,7 +219,6 @@
 
 
 <!-- Site footer -->
-    
 <footer id="footer" class="site-footer">
     <div class="container">
         <div class="row">
@@ -231,23 +230,23 @@
           <div class="col-xs-6 col-md-3">
             <h6>Servicios</h6>
             <ul class="footer-links">
-              <li><a href="./index.html#seguridadIntegral">Seguridad Integral</a></li>
-              <li><a href="./index.html#indumentaria">Indumentaria y Protección Personal</a></li>
-              <li><a href="./index.html#productosDiversos">Productos Diversos y Servicios Comerciales</a></li>
-              <li><a href="./index.html#asesoria">Asesoría Integral y Capacitación</a></li>
-              <li><a href="./index.html#publicidad">Publicidad y Promoción</a></li>
+            <li><a href="./ruesga.php#seguridadIntegral">Seguridad Integral</a></li>
+              <li><a href="./ruesga.php#indumentaria">Indumentaria y Protección Personal</a></li>
+              <li><a href="./ruesga.php#productosDiversos">Productos Diversos y Servicios Comerciales</a></li>
+              <li><a href="./ruesga.php#asesoria">Asesoría Integral y Capacitación</a></li>
+              <li><a href="./ruesga.php#publicidad">Publicidad y Promoción</a></li>
             </ul>
           </div>
 
           <div class="col-xs-6 col-md-3">
             <h6>Acceso rápido</h6>
             <ul class="footer-links">
-              <li><a href="./index.html">Inicio</a></li>
-              <li><a href="./index.html#about">Acerca de nosotros</a></li>
-              <li><a href="./index.html#services">Servicios</a></li>
-              <li><a href="./index.html#contact_form">Contáctanos</a></li>
-              <!--<li><a href="./index.html">CLABE interbancaria</a></li>-->
-              <li><a href="./index.html#footer">Politicas de privacidad</a></li>
+              <li><a href="./ruesga.php">Inicio</a></li>
+              <li><a href="./ruesga.php#about">Acerca de nosotros</a></li>
+              <li><a href="./ruesga.php#services">Servicios</a></li>
+              <li><a href="./ruesga.php#contact_form">Contáctanos</a></li>
+              <!--<li><a href="./ruesga.php">CLABE interbancaria</a></li>-->
+              <li><a href="./ruesga.php#footer">Politicas de privacidad</a></li>
             </ul>
           </div>
         </div>
