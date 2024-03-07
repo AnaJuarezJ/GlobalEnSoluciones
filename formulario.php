@@ -41,8 +41,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $mail->isSMTP();
         $mail->Host       = 'smtp.gmail.com';
         $mail->SMTPAuth   = true;
-        $mail->Username   = 'anajrzj@gmail.com';
-        $mail->Password   = 'Mooncherry08#';
+        $mail->Username   = 'prueba1234@gmail.com';
+        $mail->Password   = 'holamundo1234';
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
         $mail->Port       = 465;
     
